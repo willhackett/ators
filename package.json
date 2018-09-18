@@ -1,0 +1,31 @@
+{
+  "name": "ators",
+  "version": "1.0.0",
+  "description": "Library to provide programatic comparison methods",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel ./src -d ./",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willhackett/prog-compare.git"
+  },
+  "keywords": [
+    "comparator",
+    "comparison",
+    "equal"
+  ],
+  "author": "Will Hackett <willhackett@me.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willhackett/prog-compare/issues"
+  },
+  "homepage": "https://github.com/willhackett/prog-compare#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-flow": "^7.0.0",
+    "babel-cli": "^6.26.0",
+    "jest": "^23.6.0"
+  }
+}
